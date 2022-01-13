@@ -1,0 +1,59 @@
+.Btn__Primary {
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  border-radius: 1.125rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  transform: scale(1);
+}
+
+.Btn__Primary:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  transform: scale(1.07);
+}
+
+.Btn__Primary:active,
+.Btn__Primary:focus {
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  color: black;
+  background-color: white;
+  outline: 2px solid black;
+  outline-offset: 2px;
+  transform: scale(1.07);
+}
+
+.Btn__Secondary {
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  border-radius: 1.125rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  transform: scale(1);
+}
+
+.Btn__Secondary:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  transform: scale(1.07);
+}
+
+.Btn__Secondary:active,
+.Btn__Secondary:focus {
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  color: white;
+  background-color: black;
+  outline: 2px solid black;
+  outline-offset: 2px;
+  transform: scale(1.07);
+}

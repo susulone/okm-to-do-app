@@ -1,0 +1,20 @@
+.Missing__Wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-block: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  overflow: auto;
+}
+
+.Missing__Container {
+  text-align: center;
+}
+
+.Missing__Container h1 {
+  font-size: 3rem;
+}
+
+.Missing__Container h6 {
+  text-transform: uppercase;
+}

@@ -1,0 +1,37 @@
+/* .FakeModal {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+} */
+
+.EditModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  height: max-content;
+  z-index: 3;
+  padding-inline: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: white;
+  border-radius: 1rem;
+  /* border: 2px solid black; */
+  box-shadow: 0 0 25px -10px black;
+}
+
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: rgba(60, 60, 60, 0.7);
+}

@@ -1,0 +1,22 @@
+.Search__Section {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  /* border: 1px solid red; */
+  height: fit-content;
+}
+
+.Search__Label {
+  visibility: hidden;
+  position: absolute;
+}
+
+.Search__Input {
+  /* width: 50%; */
+  font-size: 1rem;
+  line-height: 1.3;
+  padding-inline: 0.5rem;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}

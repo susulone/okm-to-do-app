@@ -1,0 +1,62 @@
+.Task__Wrapper {
+  display: flex;
+  width: auto;
+  height: max-content;
+  justify-content: space-between;
+  margin: 0.5rem;
+  padding-block: 0.25rem;
+  align-items: flex-start;
+  /* border: 1px solid red; */
+}
+
+.Task__Description {
+  width: fit-content;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+/* Hide the default checkbox but maintain the accessibility with keyboard*/
+[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+}
+
+[type="checkbox"]:checked ~ label {
+  opacity: 0.5;
+  text-decoration-line: line-through;
+  transition: transform 200ms ease-out;
+}
+
+.Check__Icons {
+  transition: transform 300ms ease-out;
+}
+
+.Task__Description label {
+  line-height: 1.3;
+}
+
+.Task__Actions {
+  float: right;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 0.25rem;
+  /* margin-right: 0.5rem; */
+  /* border: 1px solid red; */
+}
+
+.Task__Icons {
+  color: black;
+  padding-inline: 0.5rem;
+  padding-bottom: 0.5rem;
+  transform: scale(1);
+  transition: transform 150ms ease-in-out;
+}
+
+.Task__Icons:hover {
+  transform: scale(1.3);
+}
+
+.Task__Icons:focus {
+  outline: none;
+  transform: scale(1.3);
+}

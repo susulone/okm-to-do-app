@@ -1,0 +1,25 @@
+.Main__Header {
+  /* border: 1px solid red; */
+  margin-top: 1rem;
+  margin-inline: 1rem;
+  text-align: center;
+  height: fit-content;
+}
+
+.Main__Header__Title {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+/* .Main__Body {
+  border: 1px solid red;
+  margin-inline: 1rem;
+} */
+
+.StatusMessage {
+  text-align: center;
+}
+
+.Error {
+  color: red;
+}

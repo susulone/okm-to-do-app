@@ -1,0 +1,75 @@
+.Accordion__Header {
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+.Accordion__Button_Opened {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.Accordion__Button_Closed {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 0.5rem;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Accordion__Button_Closed:hover {
+  outline: none;
+  font-weight: 900;
+}
+
+.Accordion__Button_Opened:active {
+  outline: none;
+  font-weight: 900;
+  color: blue;
+}
+
+.Accordion__Button_Opened:active * {
+  font-weight: 900;
+  color: blue;
+}
+
+button:focus {
+  outline: none;
+  padding: 0.5rem;
+  font-weight: 900;
+  color: #999;
+}
+
+button:focus * {
+  font-weight: 900;
+  color: #999;
+}
+
+.Accordion__Icons {
+  vertical-align: text-bottom;
+  font-size: 1.25rem;
+  color: black;
+}
+
+.Accordion__Panel {
+  max-width: 70ch;
+  margin-left: 0;
+  margin-bottom: 0.5rem;
+  padding-inline: 0.5rem;
+  border-bottom: 1px solid #eaeaea;
+  line-height: 1.5;
+}

@@ -1,0 +1,27 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "position": 0,
+      "taskDescription": "This is an example task description.",
+      "categories": [
+        "Tag1",
+        "Tag2"
+      ],
+      "timeCreated": "2022-01-02T20:56:09.057Z",
+      "timeEdited": "2022-01-02T21:00:22.076Z",
+      "isCompleted": false,
+      "isArchived": false
+    },
+    {
+      "id": 2,
+      "position": 1,
+      "taskDescription": "This is a second example task description, with no categories.",
+      "categories": [],
+      "timeCreated": "2022-01-02T20:59:59.298Z",
+      "timeEdited": null,
+      "isCompleted": false,
+      "isArchived": false
+    }
+  ]
+}

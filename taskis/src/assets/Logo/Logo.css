@@ -1,0 +1,21 @@
+.Nav__Logo {
+  margin-inline: auto;
+  transform: scale(1);
+  margin-bottom: 0.5rem;
+}
+
+.Nav__Logo #Vector {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 800px) {
+  .Nav__Logo {
+    transition: transform;
+    transform: scale(0.8);
+    margin-bottom: 0;
+  }
+
+  .Nav__Logo #LogoText {
+    visibility: hidden;
+  }
+}

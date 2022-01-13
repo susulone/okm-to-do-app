@@ -1,0 +1,69 @@
+/* Edit Form Sections */
+.Modal__Section {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.Modal__Label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.Modal__Input {
+  margin-bottom: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-family: "Cabin", sans-serif;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.Modal__Input:disabled {
+  background-color: #ddd;
+  /*border: 2px solid #bbb; */
+  opacity: 0.3;
+}
+
+.Modal__Textarea {
+  resize: none;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+  line-height: 1.3;
+  transition: all 0.2s;
+}
+
+.Modal__Input:focus,
+.Modal__Textarea:focus {
+  box-shadow: 0 0 16px -10px black;
+}
+
+/* Modal footer, Cancel and Submit buttons */
+.Modal__Footer {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.Button__Left {
+  margin-right: 2rem;
+}
+
+.Button__Right {
+  float: right;
+  margin-left: 2rem;
+}
+
+.Error_NotFound {
+  text-align: center;
+}
+
+.Error_NotFound__Message {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,19 @@
+.App__Container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  overflow: hidden;
+}
+
+.Dashboard__Wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-block: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  height: calc(99vh - 3.1rem);
+  overflow: auto;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+}

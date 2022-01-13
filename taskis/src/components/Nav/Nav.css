@@ -1,0 +1,101 @@
+.Nav,
+.Nav__List {
+  display: flex;
+  flex-direction: column;
+}
+
+.Nav {
+  height: calc(99vh - 4rem);
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  margin-block: 1rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+  padding-inline: 0.5rem;
+  padding-block: 1rem;
+  overflow: sauto;
+}
+
+.Nav__Wrapper {
+  flex-grow: 1;
+}
+
+.Nav__List {
+  height: 100%;
+  gap: 1rem;
+  margin: 0;
+  padding: 0 0.5rem;
+}
+
+.Nav__Link {
+  color: black;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.Nav__Item {
+  list-style: none;
+  font-weight: 500;
+}
+
+.Nav__Link:visited {
+  color: black;
+}
+
+.Nav__Link:hover,
+.Nav__Link:focus {
+  outline: none;
+  transform: scale(1.1);
+  font-weight: 700;
+}
+
+.Nav__Link:focus:not(:focus-visible) {
+  outline: none;
+  transform: scale(1.1);
+}
+
+.Nav__Link:nth-child(3) {
+  margin-top: auto;
+}
+
+.Nav__Link:nth-child(4) {
+  margin-bottom: auto;
+}
+
+.Nav__Icons {
+  vertical-align: text-top;
+  color: black;
+  font-size: 1.125rem;
+}
+
+.Nav__Button {
+  color: black;
+  font-weight: 600;
+  line-height: 1.5;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 800px) {
+  .Nav__Item span {
+    display: none;
+  }
+  .Nav__Item {
+    text-align: center;
+  }
+
+  .Nav {
+    width: max-content;
+  }
+
+  .Nav__Icons {
+    font-size: 1.4rem;
+  }
+
+  .Nav__Link:hover,
+  .Nav__Link:focus {
+    outline: none;
+    transform: scale(1.2);
+    font-weight: 700;
+  }
+}
